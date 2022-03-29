@@ -1,0 +1,35 @@
+body {
+  background-color: #0fd6f0;
+  padding: 20px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: rgba(56, 112, 112, 0.877);
+  padding: 0;
+}
+ul.header li a {
+  color: rgb(2, 2, 2);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 50px;
+  display: inline-block;
+}
+.content {
+  background-color: rgb(160, 139, 139);
+  padding: 30px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
